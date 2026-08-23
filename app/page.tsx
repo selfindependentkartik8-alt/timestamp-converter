@@ -340,14 +340,14 @@ export default function Home() {
 
               <button
                 onClick={handleCurrentTimestamp}
-                className="h-14 w-full rounded-2xl border border-cyan-300/15 bg-cyan-400/5 px-7 text-base font-semibold text-cyan-200 transition hover:bg-cyan-400/10 active:scale-[0.98] sm:w-auto"
+                className="h-14 w-full flex-1 rounded-2xl border border-cyan-300/15 bg-cyan-400/5 px-7 text-base font-semibold text-cyan-200 transition duration-300 hover:-translate-y-0.5 hover:bg-cyan-400/10 active:scale-[0.98]"
               >
                 🕐 Current
               </button>
 
               <button
                 onClick={handleClear}
-                className="h-14 w-full rounded-2xl border border-white/10 bg-white/[0.04] px-7 text-base font-semibold text-zinc-300 transition hover:bg-white/[0.08] hover:text-white active:scale-[0.98] sm:w-auto"
+               className="h-14 w-full flex-1 rounded-2xl border border-white/10 bg-white/[0.04] px-7 text-base font-semibold text-zinc-300 transition duration-300 hover:bg-white/[0.08] hover:text-white active:scale-[0.98]"
               >
                 Clear
               </button>
